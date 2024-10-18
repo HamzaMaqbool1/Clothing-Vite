@@ -59,7 +59,7 @@ function FooterEnd(){
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/Clothing-Vite/">
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
